@@ -1,4 +1,7 @@
 <ion-view view-title="Current Rates" hide-back-button="true">
+  <ion-nav-buttons side="primary">
+    <button class="button" ng-click="openHelp($event)">About</button> 
+  </ion-nav-buttons>
   <ion-content overflow-scroll="true">
     <ion-refresher on-refresh="load()" pulling-text="Pull to Refresh"></ion-refresher>
     <ion-list>
