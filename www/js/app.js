@@ -31,7 +31,8 @@ angular.module('App', ['ionic', 'highcharts-ng'])
       url: 'currncies',
       views: {
         'currncies-tab': {
-          templateUrl: 'views/currencies/currencies.html'
+          templateUrl: 'views/currencies/currencies.html',
+          controller: 'CurrenciesController'
         }
       }
     })
